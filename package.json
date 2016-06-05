@@ -1,0 +1,40 @@
+{
+  "name": "ttcr",
+  "version": "1.0.0",
+  "bin": "cli.js",
+  "description": "Calculate text-to-code ratio of a website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "seo",
+    "text-to-code",
+    "text",
+    "to",
+    "code",
+    "ratio"
+  ],
+  "author": "Samuel Anthony Custer",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "is-url": "^1.2.1",
+    "meow": "^3.7.0",
+    "request": "^2.72.0"
+  },
+  "xo": {
+    "rules": {
+      "xo/no-process-exit": "off",
+      "linebreak-style": "off",
+      "indent": [
+        "error",
+        2
+      ]
+    }
+  }
+}
