@@ -1,6 +1,6 @@
 {
   "name": "ttcr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "cli.js",
   "description": "Calculate text-to-code ratio of a website.",
   "main": "index.js",
@@ -17,6 +17,10 @@
   ],
   "author": "Samuel Anthony Custer",
   "license": "ISC",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/samcus/ttcr"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
